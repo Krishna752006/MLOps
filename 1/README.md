@@ -1,7 +1,7 @@
 # MLOps
 
 Just Building Model = Not enough --> just 20% of whole business problem
-MLE -> 10% ML and 90% Engineering (by **Elon Musk**)
+MLE -> 10% ML and 90% Engineering (by **Elon Musk**)(https://x.com/elonmusk/status/1315852060852584449)
 
 ## ML Teams
 
@@ -62,3 +62,34 @@ A tool with 10 blocks that helps us structure and plan our ML Application Develo
 8. **Collecting Data** -> Colecting newer data for re training and to avoid model decay. Cost of Collection and human intervation in labelling.
 9. **Building Models** -> Deciding the frequency of model retraining. Planning for changes in tech stack and services.
 10. **Live Evaluation and Monitoring** -> Setting Metrics to track system performance post deployment. Understanding corellation between model metrics and business metrics.
+
+Also need to check if AI/ML is the right solution for the problem as it may cost a lot for its implementation.
+
+## 3 components
+
+1. **3 Artifacts** of ML Software -> Data, ML Model and Code.
+2. **3 Phases** -> Data Engineering, ML Model Engineering and Code Engineering.
+
+## Engineering Pipeline
+
+Pipeline is a high-level workflow that organizes a series of tasks (steps) to create a final product. One step is done if the previous step is done.
+
+1. **Data Engineering Pipeline**
+- Data Injection:  Collection of data from various Sources
+- Exploration and Validation: Understanding data content and structure
+- Data Wrangling: Formatting and Cleaning data
+- Data Labelling: Assigning Labels
+- Data Splitting: Splitting
+
+2. **ML Model Engineering**
+- Model Training: Training
+- Model Evaluation: Validting
+- Model Testing: Testing
+- Model Packaging: Exporting model into consumable format for business application
+
+3. **Deployment Engineering**
+- Model Serving: Addressing Model in production environment
+- Model Performance Monitoring: Observing performance
+- Model Performance Logging: Recording every inference request
+
+We will be using ZenML to Develop, Execute and Manage
