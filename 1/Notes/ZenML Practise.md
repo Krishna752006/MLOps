@@ -42,3 +42,9 @@ To initialize -> zenml init
 Then created files in steps folder. Kind of a blueprint and not the actual code.
 Also try to Document what each function does in commets. One line explanation, One line on Arguments and one on Returning Value
 
+Then putting a pipeline file to take in all the steps.
+
+Then write a run_pipeline.py and run via py run_pipeline.py, pipeline will be created. Make sure to use `__main__` and not forget underscores.
+
+Then in terminal enter -> zenml login --local --blocking
+It will create a local server where you can look the pipelines that you have created. Login by user as `default`
