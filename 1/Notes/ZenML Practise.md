@@ -44,7 +44,12 @@ Also try to Document what each function does in commets. One line explanation, O
 
 Then putting a pipeline file to take in all the steps.
 
-Then write a run_pipeline.py and run via py run_pipeline.py, pipeline will be created. Make sure to use `__main__` and not forget underscores.
+Then write a run_pipeline.py and run via py run_pipeline.py, pipeline will be created. Make sure to use `__main__` and not forget underscores. Here `__name__ == "__main__"` is so that the file is directly run as py run_pipeline.py and no by another source as import run_pipeline and run from there. Basically only run via main file and not and dependency type.
 
 Then in terminal enter -> zenml login --local --blocking
 It will create a local server where you can look the pipelines that you have created. Login by user as `default`
+
+(enable_cache = False) -> Training from Start
+(enable_cache = True) -> This Cache's the Step's data in a local folder and The MLOps Framework checks if any change is there in steps, if not, it reuses cached artifacts. This for a faster and a better run.
+
+Till Now this is the blueprint of the task.
