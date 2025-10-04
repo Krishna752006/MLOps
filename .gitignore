@@ -1,1 +1,24 @@
 **/myenv/
+
+# ZenML local config
+**/.zen/
+
+# Python cache and build artifacts
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.egg-info/
+**/build/
+**/dist/
+
+# Virtual environments
+**/.venv/
+**/venv/
+**/.env/
+
+# Jupyter notebooks
+**/.ipynb_checkpoints/
+
+# IDE settings
+**/.vscode/
+**/.idea/
