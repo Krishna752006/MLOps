@@ -38,3 +38,7 @@ What Happens Internally:
 Starting..
 
 To initialize -> zenml init
+
+Then created files in steps folder. Kind of a blueprint and not the actual code.
+Also try to Document what each function does in commets. One line explanation, One line on Arguments and one on Returning Value
+
